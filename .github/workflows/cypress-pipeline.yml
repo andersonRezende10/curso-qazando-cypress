@@ -20,8 +20,8 @@ jobs:
         uses: actions/checkout@v4
 
       # exemplo de execução no terminal
-      - name: instalar dependencias do projeto
-        run: echo Anderson Rezende
+      - name: Instalar dependencias do projeto
+        run: npm install
 
       # execução e configuração do teste
       - name: Run testes
